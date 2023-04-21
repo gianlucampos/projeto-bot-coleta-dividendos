@@ -1,6 +1,10 @@
 package br.com.main;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.Objects;
 
@@ -12,7 +16,7 @@ import java.util.Objects;
 public class Dividend {
 
     private String dtActive;
-    private String nameActive;
+    private String codeActive;
     private String value;
     private String taxes;
 
@@ -21,19 +25,19 @@ public class Dividend {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Dividend dividend = (Dividend) o;
-        return Objects.equals(dtActive, dividend.dtActive) && Objects.equals(nameActive, dividend.nameActive);
+        return Objects.equals(dtActive, dividend.dtActive) && Objects.equals(codeActive, dividend.codeActive);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(dtActive, nameActive);
+        return Objects.hash(dtActive, codeActive);
     }
 
     @Override
     public String toString() {
         return "Dividend{" +
                 "dtActive='" + dtActive + '\'' +
-                ", nameActive='" + nameActive + '\'' +
+                ", nameActive='" + codeActive + '\'' +
                 ", value='" + value + '\'' +
                 ", taxes='" + taxes + '\'' +
                 '}' + "\n";

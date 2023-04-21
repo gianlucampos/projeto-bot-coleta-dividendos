@@ -1,0 +1,236 @@
+[
+  {
+    "dtActive": "03/01/2022",
+    "codeActive": "LTC",
+    "value": "7,60 ",
+    "taxes": "2,28"
+  },
+  {
+    "dtActive": "04/01/2022",
+    "codeActive": "GOOD",
+    "value": "11,31 ",
+    "taxes": "3,37"
+  },
+  {
+    "dtActive": "12/01/2022",
+    "codeActive": "AGNC",
+    "value": "10,28 ",
+    "taxes": "3,08"
+  },
+  {
+    "dtActive": "12/01/2022",
+    "codeActive": "BRG",
+    "value": "18,56 ",
+    "taxes": "5,60"
+  },
+  {
+    "dtActive": "01/02/2022",
+    "codeActive": "GOOD",
+    "value": "10,96 ",
+    "taxes": "3,27"
+  },
+  {
+    "dtActive": "01/02/2022",
+    "codeActive": "LTC",
+    "value": "7,36 ",
+    "taxes": "2,21"
+  },
+  {
+    "dtActive": "10/02/2022",
+    "codeActive": "AGNC",
+    "value": "9,96 ",
+    "taxes": "2,99"
+  },
+  {
+    "dtActive": "01/03/2022",
+    "codeActive": "LTC",
+    "value": "6,90 ",
+    "taxes": "2,08"
+  },
+  {
+    "dtActive": "01/03/2022",
+    "codeActive": "GOOD",
+    "value": "10,27 ",
+    "taxes": "3,06"
+  },
+  {
+    "dtActive": "09/03/2022",
+    "codeActive": "JNJ",
+    "value": "0,05 ",
+    "taxes": "0,00"
+  },
+  {
+    "dtActive": "10/03/2022",
+    "codeActive": "AGNC",
+    "value": "9,34 ",
+    "taxes": "2,80"
+  },
+  {
+    "dtActive": "01/04/2022",
+    "codeActive": "LTC",
+    "value": "19,50 ",
+    "taxes": "5,85"
+  },
+  {
+    "dtActive": "01/04/2022",
+    "codeActive": "GOOD",
+    "value": "12,88 ",
+    "taxes": "3,85"
+  },
+  {
+    "dtActive": "06/04/2022",
+    "codeActive": "BRG",
+    "value": "18,78 ",
+    "taxes": "5,64"
+  },
+  {
+    "dtActive": "13/04/2022",
+    "codeActive": "AGNC",
+    "value": "12,31 ",
+    "taxes": "3,69"
+  },
+  {
+    "dtActive": "02/05/2022",
+    "codeActive": "LTC",
+    "value": "17,92 ",
+    "taxes": "5,38"
+  },
+  {
+    "dtActive": "02/05/2022",
+    "codeActive": "GOOD",
+    "value": "11,84 ",
+    "taxes": "3,54"
+  },
+  {
+    "dtActive": "11/05/2022",
+    "codeActive": "AGNC",
+    "value": "11,32 ",
+    "taxes": "3,39"
+  },
+  {
+    "dtActive": "01/06/2022",
+    "codeActive": "GOOD",
+    "value": "12,82 ",
+    "taxes": "3,83"
+  },
+  {
+    "dtActive": "01/06/2022",
+    "codeActive": "LTC",
+    "value": "19,41 ",
+    "taxes": "5,82"
+  },
+  {
+    "dtActive": "08/06/2022",
+    "codeActive": "JNJ",
+    "value": "0,05 ",
+    "taxes": "0,00"
+  },
+  {
+    "dtActive": "10/06/2022",
+    "codeActive": "AGNC",
+    "value": "12,26 ",
+    "taxes": "3,68"
+  },
+  {
+    "dtActive": "01/07/2022",
+    "codeActive": "LTC",
+    "value": "19,42 ",
+    "taxes": "5,83"
+  },
+  {
+    "dtActive": "01/07/2022",
+    "codeActive": "GOOD",
+    "value": "12,83 ",
+    "taxes": "3,83"
+  },
+  {
+    "dtActive": "06/07/2022",
+    "codeActive": "BRG",
+    "value": "18,71 ",
+    "taxes": "5,62"
+  },
+  {
+    "dtActive": "13/07/2022",
+    "codeActive": "AGNC",
+    "value": "12,27 ",
+    "taxes": "3,68"
+  },
+  {
+    "dtActive": "01/08/2022",
+    "codeActive": "LTC",
+    "value": "20,52 ",
+    "taxes": "6,16"
+  },
+  {
+    "dtActive": "01/08/2022",
+    "codeActive": "GOOD",
+    "value": "13,56 ",
+    "taxes": "4,05"
+  },
+  {
+    "dtActive": "16/08/2022",
+    "codeActive": "AGNC",
+    "value": "12,96 ",
+    "taxes": "3,89"
+  },
+  {
+    "dtActive": "01/09/2022",
+    "codeActive": "GOOD",
+    "value": "12,78 ",
+    "taxes": "3,82"
+  },
+  {
+    "dtActive": "01/09/2022",
+    "codeActive": "LTC",
+    "value": "19,35 ",
+    "taxes": "5,80"
+  },
+  {
+    "dtActive": "07/09/2022",
+    "codeActive": "JNJ",
+    "value": "0,05 ",
+    "taxes": "0,00"
+  },
+  {
+    "dtActive": "13/09/2022",
+    "codeActive": "AGNC",
+    "value": "12,22 ",
+    "taxes": "3,67"
+  },
+  {
+    "dtActive": "03/10/2022",
+    "codeActive": "GOOD",
+    "value": "13,10 ",
+    "taxes": "3,92"
+  },
+  {
+    "dtActive": "03/10/2022",
+    "codeActive": "LTC",
+    "value": "19,84 ",
+    "taxes": "5,95"
+  },
+  {
+    "dtActive": "13/10/2022",
+    "codeActive": "AGNC",
+    "value": "12,53 ",
+    "taxes": "3,76"
+  },
+  {
+    "dtActive": "01/11/2022",
+    "codeActive": "GOOD",
+    "value": "13,26 ",
+    "taxes": "3,96"
+  },
+  {
+    "dtActive": "01/11/2022",
+    "codeActive": "LTC",
+    "value": "20,07 ",
+    "taxes": "6,02"
+  },
+  {
+    "dtActive": "10/11/2022",
+    "codeActive": "AGNC",
+    "value": "12,68 ",
+    "taxes": "3,80"
+  }
+]

@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>template.botcity</groupId>
-    <artifactId>botColetaDividendos</artifactId>
+    <artifactId>bot-coleta-dividendos</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>FirstBot</name>
+    <name>bot-coleta-dividendos</name>
     <url>https://maven.apache.org</url>
     <description>
         BotCity Template project for RPA automation of desktop applications.
@@ -122,5 +122,12 @@
             <version>1.18.26</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
     </dependencies>
 </project>
