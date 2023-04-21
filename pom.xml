@@ -1,0 +1,126 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>template.botcity</groupId>
+    <artifactId>botColetaDividendos</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>FirstBot</name>
+    <url>https://maven.apache.org</url>
+    <description>
+        BotCity Template project for RPA automation of desktop applications.
+    </description>
+
+    <properties>
+        <jdk.version>11</jdk.version>
+        <main-class>br.com.main.BotColetaDividendos</main-class>
+        <uri-root-nexus>https://devtools.botcity.dev:8081/repository</uri-root-nexus>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.version>3.8.0</maven.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <botcity-framework-core.version>1.5.0</botcity-framework-core.version>
+        <maestro-sdk.version>1.2.3</maestro-sdk.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>nexus-botcity-public</id>
+            <url>${uri-root-nexus}/botcity-public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/resources</directory>
+            </resource>
+        </resources>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven.version}</version>
+                    <configuration>
+                        <source>${maven.compiler.source}</source>
+                        <target>${maven.compiler.target}</target>
+                        <release>${jdk.version}</release>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.version}</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <release>${jdk.version}</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>${main-class}</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <finalName>${project.artifactId}-${project.version}</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <!--                    <outputDirectory>dist</outputDirectory>-->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>dev.botcity</groupId>
+            <artifactId>botcity-framework-core</artifactId>
+            <version>${botcity-framework-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>dev.botcity</groupId>
+            <artifactId>maestro-sdk</artifactId>
+            <version>${maestro-sdk.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>dev.botcity</groupId>
+            <artifactId>document-processing</artifactId>
+            <version>1.3.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
